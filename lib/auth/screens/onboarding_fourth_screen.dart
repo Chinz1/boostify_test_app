@@ -53,6 +53,7 @@ class OnboardingFourthScreen extends StatelessWidget {
                     children: [
                       const SizedBox(height: 5),
                       const Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
                             'Your Successful',

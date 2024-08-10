@@ -52,6 +52,7 @@ class OnboardingThirdScreen extends StatelessWidget {
                       children: [
                         const SizedBox(height: 16),
                         const Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                                 SizedBox(width: 20),
                                 Text(
