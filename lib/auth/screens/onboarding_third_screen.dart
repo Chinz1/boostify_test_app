@@ -34,7 +34,7 @@ class OnboardingThirdScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 20), // Space between the containers
+                const SizedBox(height: 20), // Space between the containers
                 Container(
                   width: w,
                   padding: const EdgeInsets.all(16.0),
@@ -91,13 +91,13 @@ class OnboardingThirdScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
+                            const Text(
                               'Be part of a new era of work with this innovative app',
                               style: TextStyle(
                                 fontSize: 12,
                               ),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               height: 40,
                             ),
                             Row(

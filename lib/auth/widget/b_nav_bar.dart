@@ -15,9 +15,9 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
 
   final List<Widget> _pages = [
     const GridViewScreen(),
-    ProjectSummaryScreen(),
+    const ProjectSummaryScreen(),
     const PlusScreen(), // Placeholder for the plus button
-    CalenderScreen(),
+    const CalenderScreen(),
     const ProfileScreen(),
   ];
 

@@ -116,19 +116,19 @@ class OnboardingSecondScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text(
+                          const Text(
                             'Find the mechanic along the entire route without',
                             style: TextStyle(
                               fontSize: 14,
                             ),
                           ),
-                          Text(
+                          const Text(
                             'interrupting your route using this platform',
                             style: TextStyle(
                               fontSize: 14,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 40,
                           ),
                           Row(

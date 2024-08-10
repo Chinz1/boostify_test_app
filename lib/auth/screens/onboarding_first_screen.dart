@@ -118,7 +118,7 @@ class OnboardingFirstScreen extends StatelessWidget {
                     const SizedBox(height: 16),
                     OutlinedButton(
                       style: OutlinedButton.styleFrom(
-                        side: BorderSide(color: Colors.black),
+                        side: const BorderSide(color: Colors.black),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30),
                         ),
