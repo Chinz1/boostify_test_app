@@ -1,5 +1,5 @@
 import 'package:boostify_test_app/auth/auth/auth_event.dart';
-import 'package:boostify_test_app/auth/auth/auth_repository.dart';
+import 'package:boostify_test_app/auth/auth_repository.dart';
 import 'package:boostify_test_app/auth/auth/auth_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

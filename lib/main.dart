@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:boostify_test_app/auth/auth/auth_bloc.dart';
-import 'package:boostify_test_app/auth/auth/auth_repository.dart';
+import 'package:boostify_test_app/auth/auth_repository.dart';
 import 'package:boostify_test_app/auth/database_helper.dart';
 import 'package:boostify_test_app/auth/screens/splash_screen.dart';
 import 'package:flutter/foundation.dart';
