@@ -48,13 +48,11 @@ class OnboardingThirdScreen extends StatelessWidget {
                   ),
                   child: SingleChildScrollView(
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         const SizedBox(height: 16),
                         const Column(
                           children: [
-                            Row(
-                              children: [
                                 SizedBox(width: 20),
                                 Text(
                                   'Solution for drivers',
@@ -64,8 +62,6 @@ class OnboardingThirdScreen extends StatelessWidget {
                                     color: Color(0xFF003366),
                                   ),
                                 ),
-                              ],
-                            ), // Hand waving icon
                             SizedBox(height: 8),
                             Text(
                               'striving for',
